@@ -1,5 +1,4 @@
-
-  #include<iostream>
+#include<iostream>
 using namespace std;
 
 int main()
@@ -12,7 +11,7 @@ int main()
         // space
         for(int j=0; j<n-i-1; j++)
         {
-            cout<<"  ";
+            cout<<" ";
         }
 
         // ABC
@@ -33,4 +32,4 @@ int main()
     }
 
     return 0;
-}  
+}
