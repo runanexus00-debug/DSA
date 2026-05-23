@@ -28,7 +28,7 @@ int BinaryToDec(int binarynum){
 int main(){
     int decnum=10;
     int binarynum=20;
-    for(int i=1;i<=16;i++){
+    for(int i=1;i<=10;i++){
         cout<<"The Dec num="<< DecimalToBinary(i)<< endl;
         cout<<"The bin num="<< BinaryToDec(i)<< endl;
     
@@ -37,5 +37,7 @@ int main(){
     cout<< BinaryToDec(binarynum)<< endl;
     cout<<"the dec=";
     cout<< DecimalToBinary(decnum)<< endl;
+    cout<< (12>>1)<<endl;
+    cout<<(6&10)<<endl;
     return 0;
 }
